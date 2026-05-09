@@ -1,0 +1,31 @@
+[project]
+name = "multi-provider-ai-support-classifier"
+version = "0.1.0"
+description = "A multi-provider LLM support ticket classifier for SaaS customer support workflows."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "openai",
+    "anthropic",
+    "google-genai",
+    "groq",
+    "pydantic",
+    "python-dotenv",
+    "streamlit",
+    "pandas",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
+
+[project.scripts]
+ai-support-classifier = "ai_support_classifier.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

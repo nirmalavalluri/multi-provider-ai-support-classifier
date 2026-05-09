@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Environments
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Local output
+outputs/local_*.json

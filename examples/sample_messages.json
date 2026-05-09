@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "message": "I canceled my Pro subscription last week, but I was charged $129.99 for an annual renewal today. Please reverse the charge and confirm my plan is canceled."
+  },
+  {
+    "id": 2,
+    "message": "I cannot log in to my account after resetting my password. The login page keeps showing an invalid session error."
+  },
+  {
+    "id": 3,
+    "message": "The dashboard export feature is failing with a 500 error whenever I try to download the monthly report."
+  },
+  {
+    "id": 4,
+    "message": "I received a verification code that I did not request. I am worried someone may be trying to access my account."
+  },
+  {
+    "id": 5,
+    "message": "Can you help me upgrade from the Starter plan to the Team plan and explain the monthly pricing?"
+  }
+]
